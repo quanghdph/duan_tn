@@ -7,7 +7,7 @@ angular.module("phonecatApp").config([
       .when("/phones", {
         template: "<phone-list></phone-list>",
       })
-      .when("/home", {
+      .when("/ban-ao", {
         template: "<home></home>",
       })
       .when("/cart", {
@@ -28,6 +28,6 @@ angular.module("phonecatApp").config([
       .when("/phones/:phoneId", {
         template: "<phone-detail></phone-detail>",
       })
-      .otherwise("/home");
+      .otherwise("/ban-ao");
   },
 ]);
